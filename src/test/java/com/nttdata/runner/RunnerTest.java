@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
         plugin = {"html:target/cucumber/cucumber-report.html",
                 "json:target/cucumber/cucumber.json"},
         stepNotifications = true,
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/store.feature",
         glue = "com.nttdata",
-        tags = "@test"
+        tags = "@validacionProducto"
 )
 public class RunnerTest {
 }
