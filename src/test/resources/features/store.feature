@@ -26,7 +26,7 @@ Feature: Product - Store
   Scenario: Validación con categoría inexistente
     Given estoy en la página de la tienda
     And me logueo con mi usuario "daenav488@gmail.com" y clave "P@sswrd123@"
-    When navego a la categoria "Pinceles" y subcategoria "Men"
+    When navego a la categoria "Autos" y subcategoria "Men"
     And agrego 2 unidades del primer producto al carrito
     Then valido en el popup la confirmación del producto agregado
     And valido en el popup que el monto total sea calculado correctamente
